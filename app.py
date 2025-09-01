@@ -55,7 +55,7 @@ def check_abnormal_parameters(data):
     return abnormal
 
 # Streamlit app
-st.title("💓 Heart Disease Prediction App")
+st.title("💓 Hear Disease Prediction App")
 st.write("This app predicts whether a patient has heart disease based on their health parameters.")
 
 # Sidebar inputs
@@ -148,3 +148,4 @@ for j in range(len(df.columns), len(axes)):
 
 plt.tight_layout()
 st.pyplot(fig)
+
